@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>CSS Padding</title>
+<style>
+#padding1 { width: 300px; border: 1px solid red; padding: 15px; text-align: justify; }
+#padding2-parent { padding: 10px; }
+#padding2-red { width: 200px; border: 1px solid red; padding: 10px; margin-bottom: 10px; }
+#padding2-green { width: 150px; border: 1px solid green; padding: 10px; }
+
+#padding3 { width: 300px; border: 1px solid red; text-align: justify; padding-top: 10px; padding-right: 20px; padding-bottom: 30px; padding-left: 40px; }
+
+#padding4 { width: 300px; border: 1px solid red; padding: 10px 20px 30px 40px; }
+#padding5 { width: 300px; border: 1px solid red; padding: 15px 25px; }
+
+#padding6 { width: 100px; height: 100px; background: #f1f1f1; padding: 25px; margin-bottom: 20px; }
+#padding7 { width: 100px; height: 100px; background: #f1f1f1; border: 10px solid green; margin-bottom: 20px; }
+#padding8 { width: 100px; height: 100px; background: #f1f1f1; padding: 25px; border: 10px solid green; margin-bottom: 20px; }
+#padding9 { width: 100px; height: 100px; background: #f1f1f1; padding: 25px; border: 10px solid green; box-sizing: border-box; margin-bottom: 20px; }
+</style>
+</head>
+<body>
+
+<div id="padding1">some long text</div>
+
+<div id="padding2-parent">
+    <div id="padding2-red">Red block text</div>
+    <div id="padding2-green">Green block text</div>
+</div>
+
+<div id="padding3">Some long text</div>
+<div id="padding4">Some long text</div>
+<div id="padding5">Some long text</div>
+
+<div id="padding6"></div>
+<div id="padding7"></div>
+<div id="padding8"></div>
+<div id="padding9"></div>
+
+</body>
+</html>
